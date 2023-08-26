@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+
+}
+
+ul li{
+    list-style: none;
+    line-height: 32px;
+}
+
+ul li i{
+   color: #39f79e;
+    margin-right: 8px;
+}
+
+/* btn primary */
+
+.btn-primary{
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: blue;
+    padding: 20px 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 530;
+}
+
+/* header file desing */
+
+.header-banner{
+    background: url(../images/banner/banner3.png);
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-content{
+  margin-left: 920px;
+  margin-right: 250px;
+  direction: rtl;
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+
+.bannere-title{
+    color: #fff;
+    font-size: 70px;
+    text-align-last: right;
+    
+}
+
+
+.banner-description{
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0 40px 0;
+    line-height: 2;
+    text-align-last: right;
+    letter-spacing: 2px;
+}
+
+section{
+    margin: 100px 0;
+}
+
+.my-failures-section{
+    padding: 0 400px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.my-failure-content{
+    margin-top: 120px;
+}
+
+.my-failure-content-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.my-failure-content-description{
+    line-height: 24px;
+    word-spacing: 4px;
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+}
+
+.my-plans-section, .always-keep-section{
+    padding: 0 200px;
+    
+}
+
+.my-plan-section-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-plan-iteam{
+    text-align: center;
+}
+
+.my-plan-iteam-title{
+    font-size: 34px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.my-plan-iteam-description{
+    font-size: 28px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.always-keep-section-image{
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
+}
+
+.gradiant{
+    background: url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    position: left bottom;
+    background-size: cover;
+    
+}
+
+.gradient-content{
+    padding: 50px 0 50px 70px;
+    max-width: 600px;
+}
+
+.gradiant-title{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+footer{
+    color: #fff;
+    background-color: black;
+}
+
+.fotter-btn{
+    background-color: blue !important;
+    color: #fff;
+}
+
+.footer-section{
+    display: flex;
+    gap: 600px; 
+}
+
+.footer-content-title{
+    font-size: 55px;
+}
+
+.footer-content-description{
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+.footer-content-email, .footer-content-phone {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer-content-phone{
+    margin: 20px 0 30px 0;
+}
+
+img{
+    margin-right: 20px;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    margin: 35px 0 20px 0;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.footer-section{
+    padding: 120px 200px;
+}
+
+.footer-form-title{
+    font-size: 24px;
+}
